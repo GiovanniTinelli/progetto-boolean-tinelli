@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url(background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-faded {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50vw;
+  padding: 5vh 5vw;
+  border-radius: 10px
+}
+
+.logo-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%
+}
+
+.green-button-container {
+  color: rgb(0, 230, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 0;
+  background-color: rgb(0, 230, 0);
+  margin: 2vh 0
+}
+
+strong {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.charge-status1 {
+  height: 4vh;
+  width: 20vw;
+  background-color: orange;
+  border-radius: 6px
+}
+
+.title-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  height: 25vh
+}
+
+.sub-container {
+  margin: 2vh 0 0 0;
+  color: white
+}
+
+.charge-status2 {
+  height: 4vh;
+  width: 30vw;
+  background-color: rgb(0, 230, 0);
+  border-radius: 6px
+}
+
+.charge-status3 {
+  height: 4vh;
+  width: 12vw;
+  background-color: red;
+  border-radius: 6px
+}
+
+#titolo {
+  color: rgb(0, 230, 0);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin:0
+}
